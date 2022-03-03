@@ -27,15 +27,15 @@ services:
       - POSTGRESS_DB=${DB_USERNAME}
       - POSTGRES_USER=${DB_USERNAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./DB:/var/lib/postgresql/data
 
   react-service:
     image: 'customer-service-frontend:latest'
     build:
       context: ./frontend
     container_name: frontend
-    volumes:
-      - .:/frontend/app
-      - /frontend/app/node_modules
     ports:
       - 3000:3000
     environment:

@@ -1,2 +1,6 @@
 ### IntelliJ IDEA ###
 .idea
+.env
+
+###DB###
+DB/pgdata
