@@ -1,5 +1,5 @@
 # CustomerService
-Spring boot App with frontend on React, PostgreSQL, Docker, Swagger
+Spring boot App with frontend on React, PostgreSQL, Docker, Swagger, Jacoco
 
 ### Instrucion to install: ###
 #### 1. Clone project. From command line: ####
