@@ -5,6 +5,11 @@ Spring boot App with frontend on React, PostgreSQL, Docker, Swagger, Jacoco
 #### 1. Clone project. From command line: ####
 > $ git clone --recursive https://github.com/Kruuten/CustomerService
 
+#### 2. Free ports for launching: ####
+> DB:5432 
+> backend:8080
+> frontend:3000
+
 #### 2. Deploy project with Docker (should be installed): ####
 > $ docker-compose up --build
 
