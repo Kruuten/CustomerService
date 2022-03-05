@@ -10,7 +10,7 @@ Spring boot App with frontend on React, PostgreSQL, Docker, Swagger, Jacoco
 > backend:8080
 > frontend:3000
 
-#### 2. Deploy project with Docker (should be installed): ####
+#### 3. Deploy project with Docker (should be installed): ####
 > $ docker-compose up --build
 
 #### 3. Check app: ####
